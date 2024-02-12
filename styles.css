@@ -1,0 +1,236 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+ 
+}
+
+header {
+    background-color: #17f89a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    animation: fadeInDown 1.5s ease-out;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #17f89a;
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    flex: 2;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1.5s ease-out;
+}
+
+aside {
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.post-meta {
+    font-style: italic;
+    color: #555;
+}
+
+aside h2, aside ul {
+    color: #333;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a:hover {
+    color: #17f89a;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h3{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2fa7d6;
+
+}
+/* Your existing styles go here */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #17f89a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #17f89a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    flex: 2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Additional styling for post meta */
+.post-meta {
+    font-style: italic;
+    color: #555;
+}
+
+/* Style the recent posts list */
+aside h2, aside ul {
+    color: #333;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/* Add hover effect on recent posts links */
+aside ul li a:hover {
+    color: #17f89a;
+}
+
+/* Add styles for the signup form */
+.signup-form {
+    margin-top: 20px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 15px;
+}
+
+.signup-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.signup-form button {
+    background-color: #17f89a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #128a64;
+}
+
+.signup_btn{
+    max-width: 6rem;
+    border-radius: 2rem;
+    margin: 3rem;
+}
